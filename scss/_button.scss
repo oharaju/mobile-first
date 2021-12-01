@@ -1,0 +1,19 @@
+.button {
+  background-color: $primary;
+  color: $white;
+  text-decoration: none;
+  padding: 10px 36px;
+  border-radius: 20px;
+
+  .button__box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button--inverted {
+    background-color: transparent;
+  }
+}
+
+
+
