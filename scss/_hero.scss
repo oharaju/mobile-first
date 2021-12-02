@@ -18,14 +18,66 @@
     font-weight: lighter;
     margin-bottom: 20px;
   }
+
   &__box {
     padding: 30px;
   }
 
   &__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 80px;
+  }
+
+  &__card {
+    background-color: $white;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    &--inverted {
+      background-color: $primary;
+      padding: 35px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    &__main {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 20px;
+      gap: 30px;
+    }
+
+    &__title {
+      color: $tertiary;
+      font-weight: bold;
+      font-size: 24px;
+
+      &--inverted {
+        color: $white;
+        font-size: 24px;
+        font-weight: bold;
+      }
+    }
+
+    &__subtitle {
+      color: $quinary;
+      font-weight: lighter;
+      font-size: 14px;
+
+      &--inverted {
+        color: $white;
+        font-weight: lighter;
+        font-size: 14px;
+      }
     }
   }
+}
+

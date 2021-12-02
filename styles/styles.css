@@ -29,6 +29,49 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  margin-bottom: 80px;
+}
+.hero__card {
+  background-color: #FFFFFF;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.hero__card--inverted {
+  background-color: #23A6F0;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.hero__card__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.hero__card__title {
+  color: #252B42;
+  font-weight: bold;
+  font-size: 24px;
+}
+.hero__card__title--inverted {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: bold;
+}
+.hero__card__subtitle {
+  color: #737373;
+  font-weight: lighter;
+  font-size: 14px;
+}
+.hero__card__subtitle--inverted {
+  color: #FFFFFF;
+  font-weight: lighter;
+  font-size: 14px;
 }
 
 .button {
