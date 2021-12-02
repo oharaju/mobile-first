@@ -2,16 +2,25 @@
   background-color: $primary;
   color: $white;
   text-decoration: none;
-  padding: 10px 36px;
+  padding: 10px 30px;
   border-radius: 20px;
 
-  .button__box {
-    display: flex;
-    flex-direction: column;
+  &:hover {
+    background-color: $secondary;
   }
 
-  .button--inverted {
+  &--inverted {
     background-color: transparent;
+    color: $white;
+    text-decoration: none;
+    padding: 10px 36px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    box-sizing: border-box;
+
+    &:hover {
+      background-color: $gray;
+    }
   }
 }
 
