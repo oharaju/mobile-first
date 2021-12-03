@@ -20,7 +20,7 @@
   }
 
   &__box {
-    padding: 30px;
+    padding: 80px;
   }
 
   &__button {
@@ -81,3 +81,17 @@
   }
 }
 
+@include desktop {
+  .hero {
+
+    &__button {
+      justify-content: center;
+      flex-direction: row;
+    }
+
+    &__card__main {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+}

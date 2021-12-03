@@ -1,10 +1,10 @@
 @mixin mobile {
-  @media (min-width: 768px) {
+  @media (min-width: #{$tablet-width}) {
     @content;
   }
 }
 @mixin desktop {
-  @media (min-width: 1100px) {
+  @media (min-width: #{$desktop-width}) {
     @content;
   }
 }

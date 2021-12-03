@@ -22,7 +22,7 @@ body {
   margin-bottom: 20px;
 }
 .hero__box {
-  padding: 30px;
+  padding: 80px;
 }
 .hero__button {
   display: flex;
@@ -74,6 +74,16 @@ body {
   font-size: 14px;
 }
 
+@media (min-width: 1050px) {
+  .hero__button {
+    justify-content: center;
+    flex-direction: row;
+  }
+  .hero__card__main {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
 .button {
   background-color: #23A6F0;
   color: #FFFFFF;
