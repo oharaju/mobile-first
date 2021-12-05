@@ -3,9 +3,8 @@ body {
 }
 
 .hero {
-  background-image: url("../images/family.jpg");
-  height: 100%;
-  background-position: center;
+  background: url("../images/family.jpg") no-repeat center center fixed;
+  background-size: cover;
   text-align: center;
 }
 .hero__title {
@@ -75,6 +74,9 @@ body {
 }
 
 @media (min-width: 1050px) {
+  .hero {
+    height: 90%;
+  }
   .hero__button {
     justify-content: center;
     flex-direction: row;

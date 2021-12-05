@@ -1,7 +1,6 @@
 .hero {
-  background-image: url("../images/family.jpg");
-  height: 100%;
-  background-position: center;
+  background: url("../images/family.jpg") no-repeat center center fixed;
+  background-size: cover;
   text-align: center;
 
   &__title {
@@ -83,6 +82,7 @@
 
 @include desktop {
   .hero {
+    height: 90%;
 
     &__button {
       justify-content: center;
