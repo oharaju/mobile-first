@@ -2,16 +2,20 @@
   padding: 90px;
   background-color: $white;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 70px;
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
 
   &__box {
     padding: 40px 50px;
   }
 
   &__image {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    height: 40px;
   }
 
   &__title {
@@ -25,5 +29,14 @@
     color: $quinary;
     font-size: 16px;
     font-weight: lighter;
+    line-height: 20px;
   }
 }
+
+@include desktop {
+  .content__main {
+      display: flex;
+      flex-direction: row;
+      gap: 0;
+    }
+  }

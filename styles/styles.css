@@ -113,15 +113,18 @@ body {
   padding: 90px;
   background-color: #FFFFFF;
   text-align: center;
+}
+.content__main {
   display: flex;
   flex-direction: column;
-  gap: 70px;
+  gap: 60px;
 }
 .content__box {
   padding: 40px 50px;
 }
 .content__image {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  height: 40px;
 }
 .content__title {
   color: #252B42;
@@ -133,6 +136,15 @@ body {
   color: #737373;
   font-size: 16px;
   font-weight: lighter;
+  line-height: 20px;
+}
+
+@media (min-width: 1050px) {
+  .content__main {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
