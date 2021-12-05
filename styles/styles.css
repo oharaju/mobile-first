@@ -3,7 +3,7 @@ body {
 }
 
 .hero {
-  background: url("../images/family.jpg") no-repeat center center fixed;
+  background: url("../images/family.jpg") no-repeat center center;
   background-size: cover;
   text-align: center;
 }
@@ -107,6 +107,32 @@ body {
 }
 .button--inverted:hover {
   background-color: #adaaaa;
+}
+
+.content {
+  padding: 90px;
+  background-color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.content__box {
+  padding: 40px 50px;
+}
+.content__image {
+  margin-bottom: 20px;
+}
+.content__title {
+  color: #252B42;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.content__subtitle {
+  color: #737373;
+  font-size: 16px;
+  font-weight: lighter;
 }
 
 /*# sourceMappingURL=styles.css.map */
