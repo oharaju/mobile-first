@@ -146,5 +146,45 @@ body {
     gap: 0;
   }
 }
+.depositions {
+  padding: 50px;
+  background-color: #FAFAFA;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.depositions__title {
+  color: #252B42;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.depositions__subtitle {
+  color: #737373;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+.depositions__main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 300px;
+}
+.depositions__card {
+  background-color: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  padding: 40px;
+}
+.depositions__image {
+  margin-bottom: 30px;
+}
+.depositions__card__text {
+  color: #737373;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
 
 /*# sourceMappingURL=styles.css.map */

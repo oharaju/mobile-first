@@ -1,0 +1,47 @@
+.depositions {
+  padding: 50px;
+  background-color: $seven;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    color: $tertiary;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  &__subtitle {
+    color: $quinary;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 50px;
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 300px;
+  }
+
+  &__card {
+    background-color: $white;
+    border: 1px solid $eighth;
+    padding: 40px;
+  }
+
+  &__image {
+    margin-bottom: 30px;
+  }
+
+
+  &__card__text {
+    color: $quinary;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
