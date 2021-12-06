@@ -38,10 +38,26 @@
     margin-bottom: 30px;
   }
 
-
   &__card__text {
     color: $quinary;
     font-size: 16px;
     margin-bottom: 20px;
+  }
+}
+
+@include desktop {
+  .depositions__main {
+    justify-content: center;
+    flex-direction: row;
+  }
+  .depositions__card {
+    padding: 30px 70px;
+  }
+}
+
+@include tablet {
+  .depositions__main {
+    flex-direction: row;
+    justify-content: center;
   }
 }

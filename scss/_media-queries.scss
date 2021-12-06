@@ -1,4 +1,4 @@
-@mixin mobile {
+@mixin tablet {
   @media (min-width: #{$tablet-width}) {
     @content;
   }
