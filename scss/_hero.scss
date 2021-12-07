@@ -95,3 +95,15 @@
     }
   }
 }
+
+@include tablet {
+    .hero__button {
+      justify-content: center;
+      flex-direction: row;
+    }
+
+    .hero__card__main {
+      flex-direction: row;
+      align-items: stretch;
+    }
+  }

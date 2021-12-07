@@ -86,6 +86,17 @@ body {
     justify-content: center;
   }
 }
+@media (min-width: 768px) {
+  .hero__button {
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .hero__card__main {
+    flex-direction: row;
+    align-items: stretch;
+  }
+}
 .button {
   background-color: #23A6F0;
   color: #FFFFFF;
@@ -146,7 +157,7 @@ body {
     gap: 0;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 768px) {
   .content__main {
     display: flex;
     flex-direction: row;
@@ -203,7 +214,7 @@ body {
     padding: 30px 70px;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 768px) {
   .depositions__main {
     flex-direction: row;
     justify-content: center;
