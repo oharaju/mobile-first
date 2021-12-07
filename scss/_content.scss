@@ -33,17 +33,29 @@
   }
 }
 
+@include tablet {
+  .content {
+    &__main {
+      display: flex;
+      flex-direction: row;
+    }
+
+    &__box {
+      padding: 0;
+    }
+  }
+}
+
 @include desktop {
-  .content__main {
+  .content {
+    &__main {
       display: flex;
       flex-direction: row;
       gap: 0;
     }
-  }
 
-  @include tablet {
-    .content__main {
-      display: flex;
-      flex-direction: row;
+    &__box {
+      padding: 40px 50px;
     }
   }
+}

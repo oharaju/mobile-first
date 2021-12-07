@@ -150,17 +150,23 @@ body {
   line-height: 20px;
 }
 
+@media (min-width: 768px) {
+  .content__main {
+    display: flex;
+    flex-direction: row;
+  }
+  .content__box {
+    padding: 0;
+  }
+}
 @media (min-width: 1050px) {
   .content__main {
     display: flex;
     flex-direction: row;
     gap: 0;
   }
-}
-@media (min-width: 768px) {
-  .content__main {
-    display: flex;
-    flex-direction: row;
+  .content__box {
+    padding: 40px 50px;
   }
 }
 .depositions {
