@@ -146,6 +146,12 @@ body {
     gap: 0;
   }
 }
+@media (min-width: 800px) {
+  .content__main {
+    display: flex;
+    flex-direction: row;
+  }
+}
 .depositions {
   padding: 50px;
   background-color: #FAFAFA;
