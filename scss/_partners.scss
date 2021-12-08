@@ -1,0 +1,45 @@
+.partners {
+  background-color: $seven;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 20px;
+    align-items: center;
+    gap: 50px;
+  }
+
+  &__form {
+    background-image: linear-gradient(to left, #D71489, #004788);
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__text {
+    color: $white;
+    font-size: 24px;
+    line-height: bold;
+    text-align: center;
+    padding: 10px 40;
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__input {
+    border: 0;
+    padding: 20px;
+    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
+  }
+
+  &__button {
+    border: 0;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+  }
+}

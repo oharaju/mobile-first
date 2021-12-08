@@ -170,7 +170,7 @@ body {
   }
 }
 .depositions {
-  padding: 50px;
+  padding: 100px 20px;
   background-color: #FAFAFA;
   text-align: center;
   display: flex;
@@ -225,6 +225,45 @@ body {
     flex-direction: row;
     justify-content: center;
   }
+}
+.partners {
+  background-color: #FAFAFA;
+}
+.partners__container {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 20px;
+  align-items: center;
+  gap: 50px;
+}
+.partners__form {
+  background-image: linear-gradient(to left, #D71489, #004788);
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.partners__text {
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: bold;
+  text-align: center;
+  padding: 10px 40;
+}
+.partners__box {
+  display: flex;
+  flex-direction: row;
+}
+.partners__input {
+  border: 0;
+  padding: 20px;
+  border-radius: 10px;
+  border-radius: 10px 0 0 10px;
+}
+.partners__button {
+  border: 0;
+  padding: 20px;
+  border-radius: 0 10px 10px 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
