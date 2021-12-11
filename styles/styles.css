@@ -246,9 +246,10 @@ body {
 .partners__text {
   color: #FFFFFF;
   font-size: 24px;
-  line-height: bold;
+  font-weight: bolder;
   text-align: center;
   padding: 10px 40;
+  margin-bottom: 20px;
 }
 .partners__box {
   display: flex;
@@ -258,12 +259,15 @@ body {
   border: 0;
   padding: 20px;
   border-radius: 10px;
-  border-radius: 10px 0 0 10px;
+  border-radius: 5px 0 0 5px;
 }
 .partners__button {
+  background-color: #23A6F0;
+  color: #FFFFFF;
   border: 0;
   padding: 20px;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
