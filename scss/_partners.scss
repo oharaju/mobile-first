@@ -7,6 +7,7 @@
     padding: 60px 20px;
     align-items: center;
     gap: 50px;
+    margin-bottom: 20px;
   }
 
   &__form {
@@ -45,5 +46,44 @@
     padding: 20px;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
+  }
+}
+
+@include tablet {
+  .partners {
+    &__container {
+      flex-direction: row;
+      justify-content: center;
+      padding: 60px 40px;
+    }
+
+    &__image {
+      width: 90%;
+    }
+    &__form {
+      width: 70%;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      flex-direction: row;
+      gap: 15%;
+    }
+  }
+}
+
+@include desktop {
+  .partners {
+
+    &__form {
+      width: 60%;
+    }
+
+    &__input {
+      padding: 20px 60px;
+    }
+
+    &__button {
+      padding: 20px;
+    }
+
   }
 }

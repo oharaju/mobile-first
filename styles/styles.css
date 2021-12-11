@@ -235,6 +235,7 @@ body {
   padding: 60px 20px;
   align-items: center;
   gap: 50px;
+  margin-bottom: 20px;
 }
 .partners__form {
   background-image: linear-gradient(to left, #D71489, #004788);
@@ -268,6 +269,35 @@ body {
   padding: 20px;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .partners__container {
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px 40px;
+  }
+  .partners__image {
+    width: 90%;
+  }
+  .partners__form {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    flex-direction: row;
+    gap: 15%;
+  }
+}
+@media (min-width: 1050px) {
+  .partners__form {
+    width: 60%;
+  }
+  .partners__input {
+    padding: 20px 60px;
+  }
+  .partners__button {
+    padding: 20px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
