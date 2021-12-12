@@ -243,6 +243,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 }
 .partners__text {
   color: #FFFFFF;
@@ -298,6 +299,76 @@ body {
   .partners__button {
     padding: 20px;
   }
+}
+.packages {
+  background-color: #FAFAFA;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.packages__box {
+  text-align: center;
+  padding: 30px;
+}
+.packages__title {
+  color: #252B42;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.packages__subtitle {
+  color: #737373;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+.packages__card__box {
+  text-align: center;
+  background-color: #FFFFFF;
+  border: 1px solid #23A6F0;
+  padding: 40px;
+}
+.packages__card__title {
+  font-weight: bold;
+  font-size: 30px;
+  color: #252B42;
+  margin-bottom: 35px;
+}
+.packages__card__subtitle {
+  color: #737373;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.packages__card__container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.packages__card__price {
+  color: #23A6F0;
+  font-size: 40px;
+  font-weight: bold;
+}
+.packages__card__value {
+  display: flex;
+  flex-direction: column;
+}
+.packages__card__cifrao {
+  color: #23A6F0;
+  font-size: 16px;
+  font-weight: bold;
+}
+.packages__card__month {
+  color: #8EC2F2;
+  font-size: 14px;
+}
+.packages__card__image {
+  display: flex;
+  padding: 10px;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
