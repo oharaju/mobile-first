@@ -47,14 +47,14 @@
 
     &__title {
       font-weight: bold;
-      font-size: 30px;
+      font-size: 24px;
       color: $terciary;
       margin-bottom: 35px;
 
       &--inverted {
         color: $white;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 24px;
         margin-bottom: 35px;
       }
     }
@@ -112,8 +112,33 @@
     }
 
     &__button {
-      margin-top: 30px;
+      margin-top: 45px;
     }
   }
 
+}
+
+@include desktop {
+  .packages {
+
+    &__box {
+      padding: 112px 212px 80px 212px;
+    }
+
+    &__card {
+      display: flex;
+      flex-direction: row;
+      gap: 0;
+
+      &__box {
+        border-radius: 10px;
+
+      &--inverted {
+        border-radius: 10px;
+        padding: 70px 40px;
+        transform: scale(1.1);
+      }
+      }
+    }
+  }
 }

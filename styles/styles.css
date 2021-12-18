@@ -352,14 +352,14 @@ body {
 }
 .packages__card__title {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 24px;
   color: #252B42;
   margin-bottom: 35px;
 }
 .packages__card__title--inverted {
   color: #FFFFFF;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 24px;
   margin-bottom: 35px;
 }
 .packages__card__subtitle {
@@ -407,7 +407,26 @@ body {
   gap: 10px;
 }
 .packages__card__button {
-  margin-top: 30px;
+  margin-top: 45px;
+}
+
+@media (min-width: 1050px) {
+  .packages__box {
+    padding: 112px 212px 80px 212px;
+  }
+  .packages__card {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+  }
+  .packages__card__box {
+    border-radius: 10px;
+  }
+  .packages__card__box--inverted {
+    border-radius: 10px;
+    padding: 70px 40px;
+    transform: scale(1.1);
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
