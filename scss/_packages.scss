@@ -11,7 +11,7 @@
   }
 
   &__title {
-    color: $tertiary;
+    color: $terciary;
     font-size: 40px;
     margin-bottom: 20px;
   }
@@ -26,19 +26,37 @@
   }
 
   &__card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 
     &__box {
       text-align: center;
       background-color: $white;
       border: 1px solid $primary;
       padding: 40px;
+
+      &--inverted {
+        background-color: $terciary;
+        color: $white;
+        text-align: center;
+        border: 1px solid $primary;
+        padding: 40px;
+      }
     }
 
     &__title {
       font-weight: bold;
       font-size: 30px;
-      color: $tertiary;
+      color: $terciary;
       margin-bottom: 35px;
+
+      &--inverted {
+        color: $white;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 35px;
+      }
     }
 
     &__subtitle {
@@ -46,12 +64,22 @@
       font-size: 16px;
       font-weight: bold;
       margin-bottom: 30px;
+      line-height: 24px;
+
+      &--inverted {
+        color: $white;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        line-height: 24px;
+      }
     }
 
     &__container {
       display: flex;
       justify-content: center;
       gap: 10px;
+      margin-bottom: 20;
     }
 
     &__price {
@@ -80,6 +108,11 @@
       display: flex;
       padding: 10px;
       align-items: center;
+      gap: 10px;
+    }
+
+    &__button {
+      margin-top: 30px;
     }
   }
 

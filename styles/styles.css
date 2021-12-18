@@ -107,6 +107,14 @@ body {
 .button:hover {
   background-color: #4eb2ec;
 }
+.button--modifier {
+  background-color: #23A6F0;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 15px 80px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
 .button--inverted {
   background-color: transparent;
   color: #FFFFFF;
@@ -324,9 +332,21 @@ body {
   line-height: 20px;
   letter-spacing: 0.2px;
 }
+.packages__card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 .packages__card__box {
   text-align: center;
   background-color: #FFFFFF;
+  border: 1px solid #23A6F0;
+  padding: 40px;
+}
+.packages__card__box--inverted {
+  background-color: #252B42;
+  color: #FFFFFF;
+  text-align: center;
   border: 1px solid #23A6F0;
   padding: 40px;
 }
@@ -336,16 +356,31 @@ body {
   color: #252B42;
   margin-bottom: 35px;
 }
+.packages__card__title--inverted {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 35px;
+}
 .packages__card__subtitle {
   color: #737373;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 30px;
+  line-height: 24px;
+}
+.packages__card__subtitle--inverted {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  line-height: 24px;
 }
 .packages__card__container {
   display: flex;
   justify-content: center;
   gap: 10px;
+  margin-bottom: 20;
 }
 .packages__card__price {
   color: #23A6F0;
@@ -369,6 +404,10 @@ body {
   display: flex;
   padding: 10px;
   align-items: center;
+  gap: 10px;
+}
+.packages__card__button {
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
