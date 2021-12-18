@@ -19,7 +19,6 @@
   &__subtitle {
     color: $quinary;
     font-size: 16px;
-    font-weight: bolder;
     margin-bottom: 30px;
     line-height: 20px;
     letter-spacing: 0.2px;
@@ -91,6 +90,8 @@
     &__value {
       display: flex;
       flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
     }
 
     &__cifrao {
@@ -115,11 +116,14 @@
       margin-top: 45px;
     }
   }
-
 }
 
 @include desktop {
   .packages {
+
+    &__subtitle {
+      padding: 20px 100px;
+    }
 
     &__box {
       padding: 112px 212px 80px 212px;
@@ -136,7 +140,7 @@
       &--inverted {
         border-radius: 10px;
         padding: 70px 40px;
-        transform: scale(1.1);
+        margin-top: -60px;
       }
       }
     }
