@@ -1,0 +1,24 @@
+.world {
+  background-color: $terciary;
+  padding: 80px 50px;
+
+  &__title {
+    color: $white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height: 60px;
+  }
+
+  &__subtitle {
+    color: $white;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 90px;
+  }
+
+  &__image {
+  width: 90%;
+  margin-bottom: 50px;
+  }
+}
