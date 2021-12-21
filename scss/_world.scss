@@ -18,7 +18,18 @@
   }
 
   &__image {
-  width: 90%;
-  margin-bottom: 50px;
+    width: 90%;
+    margin-bottom: 50px;
+  }
+}
+
+@include tablet {
+  .world {
+    padding: 80px;
+
+    &__box {
+      display: flex;
+      gap: 50px;
+    }
   }
 }

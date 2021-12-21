@@ -454,4 +454,14 @@ body {
   margin-bottom: 50px;
 }
 
+@media (min-width: 768px) {
+  .world {
+    padding: 80px;
+  }
+  .world__box {
+    display: flex;
+    gap: 50px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
