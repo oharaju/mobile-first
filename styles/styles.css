@@ -474,5 +474,41 @@ body {
     width: 100%;
   }
 }
+.register {
+  background-color: #FFFFFF;
+}
+.register__main {
+  padding: 40px 50px;
+}
+.register__image {
+  width: 100%;
+}
+.register__title {
+  color: #252B42;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.register__form {
+  display: flex;
+  flex-direction: column;
+}
+.register__form__label {
+  color: #252B42;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.register__form__text {
+  margin-bottom: 10px;
+}
+.register__form__input {
+  background-color: #F9F9F9;
+  color: #737373;
+  border: 1px solid #DEDEDE;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
 
 /*# sourceMappingURL=styles.css.map */
