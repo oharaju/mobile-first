@@ -16,11 +16,6 @@
     line-height: 20px;
     margin-bottom: 90px;
   }
-
-  &__image {
-    width: 90%;
-    margin-bottom: 50px;
-  }
 }
 
 @include tablet {
@@ -30,6 +25,27 @@
     &__box {
       display: flex;
       gap: 50px;
+    }
+  }
+}
+
+@include desktop {
+  .world {
+
+    &__center {
+      padding: 80px;
+      width: 60%;
+    }
+
+    &__image {
+      display: flex;
+      align-items: center;
+      padding: 0 50px 0 0;
+      width: 50%;
+    }
+
+    &__figure {
+      width: 100%;
     }
   }
 }

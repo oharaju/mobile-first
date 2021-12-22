@@ -449,10 +449,6 @@ body {
   line-height: 20px;
   margin-bottom: 90px;
 }
-.world__image {
-  width: 90%;
-  margin-bottom: 50px;
-}
 
 @media (min-width: 768px) {
   .world {
@@ -461,6 +457,21 @@ body {
   .world__box {
     display: flex;
     gap: 50px;
+  }
+}
+@media (min-width: 1050px) {
+  .world__center {
+    padding: 80px;
+    width: 60%;
+  }
+  .world__image {
+    display: flex;
+    align-items: center;
+    padding: 0 50px 0 0;
+    width: 50%;
+  }
+  .world__figure {
+    width: 100%;
   }
 }
 
