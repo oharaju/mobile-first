@@ -482,7 +482,9 @@ body {
   padding: 40px 50px;
 }
 .register__image {
-  width: 100%;
+  background: url(../images/family-register-mobile.png) no-repeat center center;
+  height: 250px;
+  background-size: cover;
 }
 .register__title {
   color: #252B42;
@@ -514,6 +516,23 @@ body {
 }
 .register__button {
   margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .register {
+    padding: 80px 160px;
+  }
+  .register__first {
+    display: flex;
+  }
+  .register__image {
+    background: url(../images/family-register-web.png) no-repeat center center;
+    width: 400px;
+    height: auto;
+  }
+  .register__main {
+    padding: 20px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

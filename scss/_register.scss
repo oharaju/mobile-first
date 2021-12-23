@@ -7,7 +7,9 @@
   }
 
   &__image {
-    width: 100%;
+    background: url(../images/family-register-mobile.png) no-repeat center center;
+    height: 250px;
+    background-size: cover;
   }
 
   &__title {
@@ -44,5 +46,25 @@
   }
   &__button {
     margin-top: 30px;
+  }
+}
+
+@include tablet {
+  .register {
+    padding: 80px 160px;
+
+    &__first {
+      display: flex;
+    }
+
+    &__image {
+      background: url(../images/family-register-web.png) no-repeat center center;
+      width: 400px;
+      height: auto;
+    }
+
+    &__main {
+      padding: 20px;
+    }
   }
 }
