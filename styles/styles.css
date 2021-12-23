@@ -476,6 +476,7 @@ body {
 }
 .register {
   background-color: #FFFFFF;
+  border-bottom: 10px solid #252B42;
 }
 .register__main {
   padding: 40px 50px;
@@ -488,6 +489,7 @@ body {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 40px;
+  line-height: 60px;
 }
 .register__form {
   display: flex;
@@ -509,6 +511,9 @@ body {
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 12px;
+}
+.register__button {
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
