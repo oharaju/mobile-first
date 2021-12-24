@@ -20,30 +20,26 @@
     line-height: 60px;
   }
 
-  &__form {
+  &__label {
+    color: $terciary;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
-
-    &__label {
-      color: $terciary;
-      font-size: 14px;
-      display: flex;
-      flex-direction: column;
-    }
-
-    &__text {
-      margin-bottom: 10px;
-    }
-
-    &__input {
-      background-color: $ten;
-      color: $quinary;
-      border: 1px solid $eighth;
-      padding: 10px;
-      border-radius: 5px;
-      margin-bottom: 12px;
-    }
   }
+
+  &__text {
+    margin-bottom: 10px;
+  }
+
+  &__input {
+    background-color: $ten;
+    color: $quinary;
+    border: 1px solid $eighth;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+  }
+
   &__button {
     margin-top: 30px;
   }
@@ -51,7 +47,7 @@
 
 @include tablet {
   .register {
-    padding: 80px 160px;
+    padding: 80px 50px;
 
     &__first {
       display: flex;
@@ -65,6 +61,15 @@
 
     &__main {
       padding: 20px;
+    }
+  }
+}
+
+@include desktop {
+  .register {
+
+    &__first {
+      justify-content: center;
     }
   }
 }

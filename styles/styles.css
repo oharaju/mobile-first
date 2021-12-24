@@ -102,27 +102,19 @@ body {
   color: #FFFFFF;
   text-decoration: none;
   padding: 10px 30px;
-  border-radius: 20px;
+  border-radius: 5px;
+  display: inline-flex;
+  justify-content: center;
+}
+.button--full {
+  width: 100%;
 }
 .button:hover {
   background-color: #4eb2ec;
 }
-.button--modifier {
-  background-color: #23A6F0;
-  color: #FFFFFF;
-  text-decoration: none;
-  padding: 15px 80px;
-  border-radius: 5px;
-  margin-top: 30px;
-}
 .button--inverted {
   background-color: transparent;
-  color: #FFFFFF;
-  text-decoration: none;
-  padding: 10px 36px;
   border: 1px solid #FFFFFF;
-  border-radius: 20px;
-  box-sizing: border-box;
 }
 .button--inverted:hover {
   background-color: #adaaaa;
@@ -493,20 +485,16 @@ body {
   margin-bottom: 40px;
   line-height: 60px;
 }
-.register__form {
-  display: flex;
-  flex-direction: column;
-}
-.register__form__label {
+.register__label {
   color: #252B42;
   font-size: 14px;
   display: flex;
   flex-direction: column;
 }
-.register__form__text {
+.register__text {
   margin-bottom: 10px;
 }
-.register__form__input {
+.register__input {
   background-color: #F9F9F9;
   color: #737373;
   border: 1px solid #DEDEDE;
@@ -520,7 +508,7 @@ body {
 
 @media (min-width: 768px) {
   .register {
-    padding: 80px 160px;
+    padding: 80px 50px;
   }
   .register__first {
     display: flex;
@@ -532,6 +520,11 @@ body {
   }
   .register__main {
     padding: 20px;
+  }
+}
+@media (min-width: 1050px) {
+  .register__first {
+    justify-content: center;
   }
 }
 
