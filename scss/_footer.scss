@@ -59,6 +59,7 @@
   &__social {
     display: flex;
     gap: 20px;
+    height: 24px;
 
     &__title {
       color: $quinary;
@@ -66,6 +67,24 @@
       font-weight: lighter;
       margin-bottom: 20px;
       line-height: 24px;
+    }
+  }
+}
+
+@include tablet {
+  .footer {
+
+    &__main {
+      display: flex;
+      justify-content: center;
+      gap: 70px;
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 60px;
     }
   }
 }
