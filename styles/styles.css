@@ -282,16 +282,16 @@ body {
     width: 90%;
   }
   .partners__form {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 40px;
     flex-direction: row;
-    gap: 15%;
   }
 }
 @media (min-width: 1050px) {
   .partners__form {
-    width: 60%;
+    width: 70%;
+    gap: 15%;
   }
   .partners__input {
     padding: 20px 60px;

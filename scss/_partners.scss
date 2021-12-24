@@ -62,11 +62,10 @@
       width: 90%;
     }
     &__form {
-      width: 70%;
+      width: 80%;
       margin: 0 auto;
       margin-bottom: 40px;
       flex-direction: row;
-      gap: 15%;
     }
   }
 }
@@ -75,7 +74,8 @@
   .partners {
 
     &__form {
-      width: 60%;
+      width: 70%;
+      gap: 15%;
     }
 
     &__input {
