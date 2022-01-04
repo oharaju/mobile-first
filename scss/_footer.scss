@@ -3,7 +3,10 @@
 
   &__main {
     background-color: $seven;
-    padding: 40px;
+    padding: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
 
   &__title {
@@ -65,7 +68,6 @@
       color: $quinary;
       font-size: 16px;
       font-weight: lighter;
-      margin-bottom: 20px;
       line-height: 24px;
     }
   }
@@ -76,6 +78,7 @@
 
     &__main {
       display: flex;
+      flex-direction: row;
       justify-content: center;
       gap: 70px;
     }
