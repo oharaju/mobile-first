@@ -38,7 +38,7 @@
     margin-bottom: 30px;
   }
 
-  &__card__text {
+  &__text {
     color: $quinary;
     font-size: 16px;
     margin-bottom: 20px;
@@ -46,12 +46,14 @@
 }
 
 @include desktop {
-  .depositions__main {
-    justify-content: center;
-    flex-direction: row;
-  }
-  .depositions__card {
-    padding: 30px 70px;
+  .depositions {
+    &__main {
+      justify-content: center;
+      flex-direction: row;
+    }
+    &__card {
+      padding: 30px 70px;
+    }
   }
 }
 

@@ -1,6 +1,7 @@
 .hero {
   background: url("../images/main.jpg") no-repeat center center;
-  background-size: cover;
+  background-size: cover; /* cover ocupa toda tela */
+  padding: 80px;
   text-align: center;
 
   &__title {
@@ -14,12 +15,8 @@
     font-size: 20px;
     color: $white;
     line-height: 30px;
-    font-weight: lighter;
+    font-weight: lighter; /* intensidade da fonte */
     margin-bottom: 20px;
-  }
-
-  &__box {
-    padding: 80px;
   }
 
   &__button {
@@ -31,27 +28,18 @@
   }
 
   &__card {
-    background-color: $white;
-    padding: 35px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+    align-items: center;
+    gap: 30px;
 
-    &--inverted {
-      background-color: $primary;
+    &__main {
+      background-color: $white;
       padding: 35px;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       gap: 10px;
-    }
-
-    &__main {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 30px;
     }
 
     &__title {
@@ -77,19 +65,28 @@
         font-size: 14px;
       }
     }
+
+    &--inverted {
+      background-color: $primary;
+      padding: 35px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
   }
 }
 
 @include desktop {
   .hero {
-    height: 90%;
+    height: 100%;
 
     &__button {
       justify-content: center;
       flex-direction: row;
     }
 
-    &__card__main {
+    &__card {
       flex-direction: row;
       justify-content: center;
     }
@@ -102,7 +99,7 @@
       flex-direction: row;
     }
 
-    .hero__card__main {
+    .hero__card {
       flex-direction: row;
       align-items: stretch;
     }

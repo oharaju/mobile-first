@@ -7,7 +7,6 @@
     padding: 60px 20px;
     align-items: center;
     gap: 50px;
-    margin-bottom: 20px;
   }
 
   &__form {
@@ -30,13 +29,11 @@
 
   &__box {
     display: flex;
-    flex-direction: row;
   }
 
   &__input {
     border: 0;
     padding: 20px;
-    border-radius: 10px;
     border-radius: 5px 0 0 5px;
   }
 
@@ -46,7 +43,7 @@
     border: 0;
     padding: 20px;
     border-radius: 0 5px 5px 0;
-    cursor: pointer;
+    cursor: pointer; /* cursor do mouse */
   }
 }
 
@@ -61,11 +58,12 @@
     &__image {
       width: 90%;
     }
+
     &__form {
+      flex-direction: row;
       width: 80%;
       margin: 0 auto;
       margin-bottom: 40px;
-      flex-direction: row;
     }
   }
 }
@@ -85,6 +83,5 @@
     &__button {
       padding: 20px;
     }
-
   }
 }
