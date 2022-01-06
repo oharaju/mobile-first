@@ -472,8 +472,10 @@ body {
 }
 .register__image {
   background: url(../images/family-register-mobile.png) no-repeat center center;
+  /* para imagem centralizar e nao repetir */
   height: 250px;
   background-size: cover;
+  /* ocupa toda a tela */
 }
 .register__title {
   color: #252B42;
@@ -520,6 +522,9 @@ body {
   }
 }
 @media (min-width: 1050px) {
+  .register {
+    border-bottom: none;
+  }
   .register__first {
     justify-content: center;
   }

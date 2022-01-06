@@ -7,9 +7,9 @@
   }
 
   &__image {
-    background: url(../images/family-register-mobile.png) no-repeat center center;
+    background: url(../images/family-register-mobile.png) no-repeat center center; /* para imagem centralizar e nao repetir */
     height: 250px;
-    background-size: cover;
+    background-size: cover; /* ocupa toda a tela */
   }
 
   &__title {
@@ -67,6 +67,7 @@
 
 @include desktop {
   .register {
+    border-bottom: none;
 
     &__first {
       justify-content: center;
