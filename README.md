@@ -3,10 +3,22 @@ Este projeto foi desenvolvimento com finalidade de estudo. O layout foi retirado
 
 Além disso, utilizei o conceito de mobile first que prioriza inicialmente o desenvolvimento no formato mobile, e também utilizei a criação de tokens de cores para serem reutilizados ao longo do projeto.
 
-# 🛠️ Ferramentas utilizadas
+# 🛠️ Ferramentas Utilizadas
 Optei por utilizar:
 
 * HTML - Linguagem de marcação de texto
 * CSS Reset - Limpa padrões de estilizações dos navegadores 
 * [SASS](https://sass-lang.com/) - Pré processador do css
 * [BEM](http://getbem.com/introduction/) - Metodologia de escrita
+
+
+### Mobile
+
+![mobile](https://user-images.githubusercontent.com/93061504/148482179-f4f6e08e-40fc-46be-a78c-f8fd93c7c7cb.gif)
+
+
+
+### Desktop
+
+![mobile](https://user-images.githubusercontent.com/93061504/148482709-efd84b8e-242f-4447-9656-47ca8b5fefaa.gif)
+
